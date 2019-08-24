@@ -12,11 +12,60 @@ a {
     padding-top: 1em;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    border: 0.5em;
+    border-color: black;
+    margin-top: 2em;
+}
+
+.container div {
+    
+    width: 32%;
+    height: 30em;
+    padding-bottom: 2em;
+    border: 1px solid lightblue;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+h2 {
+    border: 1px solid lightblue;
+    height: 2em;
+    color: brown;
+    margin-top: 0;
+    margin-bottom: 7px;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    font-family: 'Slabo 27px', serif;
+    font-weight:lighter;
+}
+
+img {
+    height: 55%;
+    width: 95%;
+}
+
+p {
+    margin: 0 5px 5px 5px;
+    text-align: left;
+}
+
+h3 {
+    background-color:lightblue;
+    color: rgb(9, 124, 99);
+}
 .footer {
     background-color: rgb(8, 130, 151);
     display: flex;
     justify-content: space-evenly;
-    position: absolute;
+    position:relative;
     bottom: 0;
     height: 3em;
     width: 100%;
