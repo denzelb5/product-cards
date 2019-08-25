@@ -23,10 +23,10 @@ a {
     margin-top: 2em;
 }
 
-.container div {
+.cards {
     
     width: 32%;
-    height: 30em;
+    height: 40%;
     padding-bottom: 2em;
     border: 1px solid lightblue;
     margin-bottom: 10px;
@@ -48,7 +48,7 @@ h2 {
 }
 
 img {
-    height: 55%;
+    height: 200px;
     width: 95%;
 }
 
@@ -61,6 +61,32 @@ h3 {
     background-color:lightblue;
     color: rgb(9, 124, 99);
 }
+
+.specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.size {
+    font-size: 0.75em;
+    font-weight: bold;
+    margin-bottom: 0;
+    
+}
+
+.weight {
+    font-size: 0.75em;
+    font-weight: bold;
+    
+}
+
+.card_footer {
+    text-align: justify;
+    font-size: 0.4em;
+}
+
 .footer {
     background-color: rgb(8, 130, 151);
     display: flex;
