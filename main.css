@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(8, 130, 151);
+    background: #0288D1;
     display: flex;
     justify-content: space-evenly;
     
@@ -8,7 +8,7 @@
 }
 
 a {
-    color: rgb(212, 199, 199);
+    color: #212121;
     padding-top: 1em;
 }
 
@@ -20,31 +20,34 @@ a {
     align-items: stretch;
     border: 0.5em;
     border-color: black;
-    margin-top: 75px;
+    padding-top: 75px;
+    background: #03A9F4;
 }
 
 .cards {
     
     width: 29%;
     height: 40%;
-    box-shadow: 5px 5px 8px 4px #ccc;
-    border: 1px solid lightblue;
+    box-shadow: 5px 5px 8px 4px #fff;
+    border: 1px solid #BDBDBD;;
     margin-bottom: 75px;
     text-align: center;
+    background: #B3E5FC;
 }
 
 
 
 h2 {
-    border: 1px solid lightblue;
+    border: 1px solid #BDBDBD;;
     height: 2em;
-    color: brown;
+    color: #212121;
     margin-top: 0;
     margin-bottom: 7px;
     padding-top: 0.5em;
     padding-bottom: 0;
     font-family: 'Slabo 27px', serif;
     font-weight:lighter;
+    background: #4CAF50;
     
 }
 
@@ -57,12 +60,15 @@ img {
 p {
     margin: 0 5px 5px 5px;
     text-align: justify;
+    color: #212121;
+
 }
 
 h3 {
-    background-color:rgb(124, 121, 121);
-    color: rgb(248, 247, 153);
+    color: #FFFFFF;
+    background: #4CAF50;
     text-align: justify;
+
 }
 
 .specs {
@@ -70,8 +76,12 @@ h3 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    color: #757575;
 }
 
+.spec_header {
+    color: #FFFFFF;
+}
 .size {
     font-size: 0.75em;
     font-weight: bold;
@@ -88,6 +98,8 @@ h3 {
 .spec_footer {
     text-align: justify;
     font-size: 0.4em;
+    font-family: 'Caveat', cursive;
+    color: #212121;
 }
 
 .pricing  {
@@ -95,6 +107,7 @@ h3 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    color: #FFFFFF;
     
     
 }
@@ -105,7 +118,7 @@ h3 {
 }
 
 .footer {
-    background-color: rgb(8, 130, 151);
+    background: #0288D1;
     display: flex;
     justify-content: space-evenly;
     position:relative;
