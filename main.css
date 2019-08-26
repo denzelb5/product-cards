@@ -20,16 +20,16 @@ a {
     align-items: stretch;
     border: 0.5em;
     border-color: black;
-    margin-top: 2em;
+    margin-top: 75px;
 }
 
 .cards {
     
-    width: 32%;
+    width: 29%;
     height: 40%;
-    padding-bottom: 2em;
+    
     border: 1px solid lightblue;
-    margin-bottom: 10px;
+    margin-bottom: 75px;
     text-align: center;
 }
 
@@ -45,21 +45,24 @@ h2 {
     padding-bottom: 0;
     font-family: 'Slabo 27px', serif;
     font-weight:lighter;
+    
 }
 
 img {
     height: 200px;
     width: 95%;
+    align-items: center;
 }
 
 p {
     margin: 0 5px 5px 5px;
-    text-align: left;
+    text-align: justify;
 }
 
 h3 {
-    background-color:lightblue;
-    color: rgb(9, 124, 99);
+    background-color:rgb(124, 121, 121);
+    color: rgb(248, 247, 153);
+    text-align: justify;
 }
 
 .specs {
@@ -82,9 +85,23 @@ h3 {
     
 }
 
-.card_footer {
+.spec_footer {
     text-align: justify;
     font-size: 0.4em;
+}
+
+.pricing  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+}
+
+.price {
+    font-size: 0.7em;
+    font-weight:bold
 }
 
 .footer {
