@@ -51,10 +51,57 @@ h2 {
     
 }
 
-img {
+.available {
     height: 200px;
     width: 95%;
     align-items: center;
+}
+
+.sold_out {
+    height: 200px;
+    width: 95%;
+    align-items: center;
+}
+
+.img-container {
+    
+    height: 200px;
+    width: 95%;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column
+    
+
+    
+    
+}
+
+.overlay {
+    
+    height: 200px;
+    width: 95%;
+    align-items: center;
+    
+
+    
+    
+}
+.overlay-image {
+    height: 200px;
+    width: 30%;
+    opacity: 0;
+            
+}
+
+.img-container:hover .overlay-image {
+    height: 200px;
+    width: 95%;
+    align-items: center;
+    opacity: 1;
+    
+    
 }
 
 p {
@@ -127,3 +174,25 @@ h3 {
     width: 100%;
 }
 
+@media (max-width: 480px) {
+    .cards {
+        width: 90%;
+        margin-bottom: 37.5px;
+    }
+    .container {
+        padding-top: 37.5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cards {
+        font-size: 1.5em
+    }
+    
+}

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Print Cards</title>
     <link rel="stylesheet" href="./main.css">
+    
 </head>
 <body>
     <header>
@@ -20,7 +21,8 @@
     <div class="container">
         <div class="cards" id="card1">
             <h2>Orange Tabby</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Caravans.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Caravans.jpg"
+                class="available">
             <p>A modern day take on the vintage teardrop camper.  Tall enough to 
                 stand up in, with full kitchen and bath.  Lightweight enough to be towed by 
                 a small vehicle.  A must!
@@ -41,10 +43,11 @@
         </div>
         <div class="cards" id="card2">
             <h2>The Turtle</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Turtle1500TeardropTrailer.jpg">
-            <p>Perfect for 1-2 people!   Sleek.  Aerodynamic.  Super 
-                lightweight and easy to pull.  Packed with lots of features.
-                You'll never want to stop traveling! The world is your oyster!
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Turtle1500TeardropTrailer.jpg"
+                class="available">
+            <p>Perfect for 1-2 people! Sleek. Aerodynamic. Super lightweight 
+                and easy to pull.  Packed with lots of features.You'll never want 
+                to stop traveling! The world is your oyster!
             </p>
             <h3>Available</h3>
             <div class="specs">
@@ -62,7 +65,8 @@
         </div>
         <div class="cards" id="card3">
             <h2>The Popup!</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Pop-Up_Teardrop_Camper_Concept.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Pop-Up_Teardrop_Camper_Concept.jpg"
+                class="available">
             <p>Need more space?  No problem! The popup has all the extra room
                 you need!  Double your space in just a few easy steps without
                 adding extra weight or taking up floorspace.  
@@ -84,7 +88,14 @@
     
         <div class="cards" id="card4">
             <h2>Bianchi Baby!</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/VW_Camper_van_and_trailer_starting_the_2009_Havant_Mayor%27s_Rally_-_geograph.org.uk_-_1259984.jpg"> 
+            <div class="img-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/VW_Camper_van_and_trailer_starting_the_2009_Havant_Mayor%27s_Rally_-_geograph.org.uk_-_1259984.jpg"
+            class="sold_out">
+                <div class="overlay">
+                <img src="https://cdn.pixabay.com/photo/2018/03/04/15/23/pictures-3198278_1280.png" 
+                    class="overlay-image" alt="sold_out">
+                </div>
+            </div>
             <p>Pure vintage!  These babies are beautimus!  Hit the road
                 in style in this sweet mint green duo!  Popup Volkswagon 
                 camper with a sweet teardrop in the back.  Got camper?
@@ -105,7 +116,8 @@
         </div>
         <div class="cards" id="card5">
             <h2>The Little Guy</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/T%40G_Teardrop_Trailer_by_nuCamp_RV.png/1920px-T%40G_Teardrop_Trailer_by_nuCamp_RV.png"> 
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/T%40G_Teardrop_Trailer_by_nuCamp_RV.png/1920px-T%40G_Teardrop_Trailer_by_nuCamp_RV.png"
+                class="available"> 
             <p>Great things come in small packages!  So light and 
                 easy to pull, you'll probably forget it's there! Still plenty of 
                 room on the inside. Travel in style with this luxurious little guy.
@@ -126,10 +138,17 @@
         </div>
         <div class="cards" id="card6">
             <h2>Classic</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Teardropsteeldrums002.jpg"> 
-            <p>A timeless classic!  You can't go wrong with this vintage
-                teardrop.  This baby has traveled many miles, but still 
-                has many more to go.  Beautiful craftmanship throughout.
+            <div class="img-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Teardropsteeldrums002.jpg" 
+                id="classic-image" class="sold_out"> 
+                <div class="overlay">
+                    <img src="https://cdn.pixabay.com/photo/2018/03/04/15/23/pictures-3198278_1280.png" 
+                        class="overlay-image" alt="sold_out">
+                    </div>
+            </div>     
+            <p>A timeless classic! You can't go wrong with this vintage
+                teardrop. This baby has traveled many miles, but still 
+                has many more to go. Beautiful craftmanship throughout.
             </p>
             <h3>Not Available</h3>
             <div class="specs">
