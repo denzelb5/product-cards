@@ -7,4 +7,4 @@ HTML, CSS, Javascript, Flexbox
 A webpage depicting a mock product page for teardrop campers.
 
 ## Screenshots
-![screenshot-1](./screenshots/teardrop-1.png)
+![screenshot-1](https://github.com/denzelb5/product-cards/blob/master/screenshots/teardrop-1.png?raw=true)
